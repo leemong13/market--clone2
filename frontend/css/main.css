@@ -1,0 +1,68 @@
+main {
+  padding: 30px 20px 30px 20px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.item-list__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-list__img img {
+  width: 50px;
+}
+
+.item-list__info {
+  padding-top: 20px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.item-list__info div {
+  margin-top: 10px;
+}
+
+.item-list__info-meta {
+  font-size: smaller;
+  color: gainsboro;
+}
+
+.item-list__info-price {
+  font-weight: bold;
+}
+
+.wirte-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  padding: 10px 15px 15px 10px;
+  color: white;
+  font-size: 15px;
+  background-color: orangered;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.wirte-btn:hover {
+  background-color: orange;
+}
